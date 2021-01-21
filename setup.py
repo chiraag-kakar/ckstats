@@ -1,15 +1,13 @@
-from setuptools import setup
+import setuptools
 
 with open("README", "r") as fh:
     long_description=fh.read()
 
 # This call to setup() does all the work
-setup(
+setuptools.setup(
     name="ckstats",
     version="1.0.0",
     description="A simple Python package for generating charts.",
-    long_description=README,
-    long_description_content_type="text/markdown",
     url="https://github.com/chiraag-kakar/ckstats",
     author="Chiraag Kakar",
     author_email="ck2222@cse.jgec.ac.in",
