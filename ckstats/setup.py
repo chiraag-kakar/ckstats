@@ -16,7 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/chiraag-kakar/ckstats",
     author="Chiraag Kakar",
-    author_email="office@realpython.com",
+    author_email="ck2222@cse.jgec.ac.in",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
