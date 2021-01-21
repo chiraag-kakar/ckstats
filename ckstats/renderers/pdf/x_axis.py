@@ -1,3 +1,5 @@
+from ...constants import *
+
 def draw(chart, canvas):
     label_height = 12 * 1.2
  

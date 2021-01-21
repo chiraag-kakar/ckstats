@@ -1,8 +1,8 @@
-import Image, ImageDraw
+from PIL import Image, ImageDraw
 from reportlab.pdfgen.canvas import Canvas
  
 from .constants import *
-from .renderers import renderer
+from .renderers import renderers
  
 def generate_chart(chart, filename):
  
@@ -27,13 +27,13 @@ def generate_chart(chart, filename):
  
     # Draw the various chart elements.
  
-    renderer.draw(format, "title",  chart, output)
-    renderer.draw(format, "x_axis", chart, output)
-    renderer.draw(format, "y_axis", chart, output)
+    renderers.draw(format, "title",  chart, output)
+    renderers.draw(format, "x_axis", chart, output)
+    renderers.draw(format, "y_axis", chart, output)
     if chart['series_type'] == "bar":
-        renderer.draw(format, "bar_series", chart, output)
+        renderers.draw(format, "bar_series", chart, output)
     elif chart['series_type'] == "line":
-        renderer.draw(format, "line_series", chart, output)
+        renderers.draw(format, "line_series", chart, output)
  
     # Finally, save the output to disk.
  

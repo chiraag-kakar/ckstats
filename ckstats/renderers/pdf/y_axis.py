@@ -29,4 +29,3 @@ def draw(chart, canvas):
         canvas.setFont("Helvetica", 12)
         canvas.setFillColorRGB(0.0, 0.0, 0.0)
         canvas.drawString(label_left, label_bottom, str(y_value))
-F
