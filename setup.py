@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README", "r") as fh:
+with open("README.md", "r") as fh:
     long_description=fh.read()
 
 # This call to setup() does all the work
@@ -11,6 +11,8 @@ setuptools.setup(
     url="https://github.com/chiraag-kakar/ckstats",
     author="Chiraag Kakar",
     author_email="ck2222@cse.jgec.ac.in",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",

@@ -1,4 +1,4 @@
-README
+README.md
 setup.py
 ckstats/__init__.py
 ckstats/chart.py

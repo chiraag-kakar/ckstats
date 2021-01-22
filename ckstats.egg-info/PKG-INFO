@@ -1,4 +1,4 @@
-Metadata-Version: 1.1
+Metadata-Version: 2.1
 Name: ckstats
 Version: 1.0.0
 Summary: A simple Python package for generating charts.
@@ -6,8 +6,11 @@ Home-page: https://github.com/chiraag-kakar/ckstats
 Author: Chiraag Kakar
 Author-email: ck2222@cse.jgec.ac.in
 License: MIT
-Description: UNKNOWN
+Description: # ckstats
+        A simple Python package for generating charts.
+        
 Platform: UNKNOWN
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
