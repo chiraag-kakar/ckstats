@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 # This call to setup() does all the work
 setuptools.setup(
     name="ckstats",
-    version="1.0.0",
+    version="1.0.1",
     description="A simple Python package for generating charts.",
     url="https://github.com/chiraag-kakar/ckstats",
     author="Chiraag Kakar",
